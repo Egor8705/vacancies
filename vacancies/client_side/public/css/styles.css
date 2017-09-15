@@ -1,0 +1,91 @@
+body{
+}
+.delete_img{
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+
+.vacancy-table {
+    width: 85%;
+    margin-left: -5%;
+    font-family: Arial,sans-serif;
+}
+
+.search-board-conteiner{
+    width: 80%;
+}
+
+.form-open{
+    display: block;
+}
+
+.form-closed{
+    display: none;
+}
+.active{
+    background-color: red;
+}
+
+.menu {
+    font-family: Arial,sans-serif;
+}
+.menu-open {
+  font-family: Arial,sans-serif;
+}
+.menu ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.menu:hover {
+  cursor: pointer;
+}
+
+li{
+  list-style-type: none;
+}
+
+.title:hover{
+  cursor: pointer;
+}
+ li:hover {
+  cursor: pointer;
+}
+
+.menu .title::before {
+  content: '▶  ';
+  font-size: 80%;
+  color: green;
+}
+
+.menu-open .title::before {
+  content: '▼  ';
+}
+
+.search-city-open {
+    position: absolute;
+    width:400px; 
+    display: block;
+    opacity: 1; 
+    z-index:99;
+    background-color: white;
+    margin-left: 1%;
+    margin-top: -10px;
+    border:1px solid;
+    font-family: Arial,sans-serif;
+    border: 1px solid;
+    border-color: gainsboro;
+    border-radius: 4px;
+}
+
+.search-city-closed{
+    display: none;
+}
+
+.vacancy-table-div {
+    border-bottom-color: gainsboro;
+    border-bottom-width: 12px;
+    border-bottom-style: solid;
+}
+
